@@ -11,7 +11,7 @@ export class SuccessfulComponent implements OnInit {
   userId: string = '';
 
   constructor(private actRoute: ActivatedRoute) { }
-
+ // crud create
   ngOnInit(): void {
     this.actRoute.params.subscribe((param: any) => {
       this.userId = param.userId as string;

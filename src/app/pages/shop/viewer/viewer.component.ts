@@ -34,7 +34,7 @@ export class ViewerComponent implements OnInit, OnChanges {
     private commentService: CommentService,
     private userService: UserService
     ) { }
-
+// crud read
     ngOnChanges(): void {
       if (this.imageInput?.id) {
         this.commentsForm.get('imageId')?.setValue(this.imageInput.id);

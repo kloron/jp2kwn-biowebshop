@@ -11,6 +11,8 @@ export class CommentService {
 
   constructor(private afs: AngularFirestore) { }
 
+//crud
+
   create(comment: Comment) {
     comment.id = this.afs.createId();
     return this.afs.collection<Comment>(this.collectionName).doc(comment.id).set(comment);
