@@ -4,7 +4,13 @@ Angular 13-at használtam a projekt készítésekor, mert a magasabb verziókkal
 
 Az elemek közül csak a 2 komplex firestore lekérdezés nincs megvalósítva.
 
+Ha valamiben elakadsz, coospace-en keresztül el tudsz érni.
 
+Jó javítást! - Balogh-Szabó Gyula
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
