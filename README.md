@@ -1,5 +1,12 @@
 # Jp2kwnBiowebshop
 
+Angular 13-at használtam a projekt készítésekor, mert a magasabb verziókkal nem tudtam a firebase-es részt megcsinálni.
+
+Az elemek közül csak a 2 komplex firestore lekérdezés nincs megvalósítva.
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
 
 ## Development server
