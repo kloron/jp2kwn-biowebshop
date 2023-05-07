@@ -1,5 +1,7 @@
 # Jp2kwnBiowebshop
 
+A választott témám: Bio élelmiszer webshop
+
 Angular 13-at használtam a projekt készítésekor, mert a magasabb verziókkal nem tudtam a firebase-es részt megcsinálni.
 
 Az elemek közül csak a 2 komplex firestore lekérdezés nincs megvalósítva.
