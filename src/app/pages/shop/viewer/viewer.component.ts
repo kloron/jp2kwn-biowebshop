@@ -74,7 +74,7 @@ export class ViewerComponent implements OnInit, OnChanges {
         this.comments.push({ ...this.commentsForm.value });
 
           this.commentService.create(this.commentsForm.value).then(_ => {
-            this.router.navigateByUrl('/gallery/successful/' + this.commentsForm.get('username')?.value);
+            this.router.navigateByUrl('/shop/successful/' + this.commentsForm.get('username')?.value);
 
           }).catch(error => {
             console.error(error);
