@@ -1,0 +1,25 @@
+<span class="loading-indicator" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+</span>
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+
+<div class="main_component">
+    <h1>Üdvözöllek a Bio élelmiszer webshopban!</h1>
+
+    <mat-form-field>
+        <mat-label for="email">E-mail cím: </mat-label><input matInput type="email" formControlName="email" />
+    </mat-form-field>
+    <p *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)"style="color:red">Kérlek helyes formátumú emailt adj meg!</p>
+
+    <mat-form-field>
+        <mat-label for="password">Jelszó: </mat-label><input matInput type="password" formControlName="password" />
+    </mat-form-field>
+    <span>
+        <span class="buttons"><button [disabled]="!loginForm.valid" mat-raised-button color="primary" type="submit">Bejelentkezek</button></span>
+        <span class="buttons"><button mat-raised-button color="primary" [routerLink]="'/signup'">Regisztrálok</button></span>
+
+    </span>
+
+
+</div>
+</form>

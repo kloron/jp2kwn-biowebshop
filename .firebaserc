@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "jp2kwn-biowebshop": {
+      "hosting": {
+        "jp2kwn-biowebshop": [
+          "jp2kwn-biowebshop"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jp2kwn-biowebshop"
+  }
+}
